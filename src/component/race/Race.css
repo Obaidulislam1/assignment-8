@@ -1,0 +1,31 @@
+.item img{
+    width: 97%;
+    height: 200px;
+    border-radius: 10px;
+    padding: 5px;
+}
+.item{
+    border: 2px solid rgb(236, 204, 143);
+    border-radius: 5px;
+    position: relative;
+}
+.item .text{
+    padding: 5px;
+}
+.text h4{
+    font-family: 'leto';
+    margin-top: 0;
+}
+.text p{
+    font-family: 'leto';
+}
+.item .btn{
+    width: 90%;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

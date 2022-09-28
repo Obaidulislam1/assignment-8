@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import AllRacing from './component/racing/AllRacing';
 
 function App() {
   return (
     <div className="App">
-      <h1>hellow jonogon</h1>
+      <AllRacing></AllRacing>
     </div>
   );
 }
