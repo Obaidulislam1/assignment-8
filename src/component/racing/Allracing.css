@@ -100,3 +100,18 @@
 .btn-activity:hover{
     background-color: orange;
 }
+@media screen and (max-width: 600px){
+    .raceContainer{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media screen and (min-width: 601px){
+    .raceContainer{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (min-width: 1100px){
+    .raceContainer{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
