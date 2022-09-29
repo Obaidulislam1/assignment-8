@@ -24,6 +24,13 @@
     height: 50px;
     border-radius: 5px;
 }
+.info{
+    width: 100%;
+    border: 2px solid chocolate;
+    margin: 10px 15px;
+    height: 550px;
+    border-radius: 10px;
+}
 .myInfo{
     display: flex;
     align-items: center;
@@ -54,10 +61,24 @@
     padding: 0 20px 0 20px;
 }
 .manBody{
-    background-color: rgb(189, 176, 160);
     border-radius: 10px;
     margin: 0 10px 0 10px;
 }
 .text{
     text-align: center;
+}
+.btn-container button{
+    border: none;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 50px;
+}
+.btn-container{
+    background-color: chocolate;
+}
+.detail{
+    text-align: center;
+}
+.detail h4{
+    padding-left: 10px;
 }

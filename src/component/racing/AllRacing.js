@@ -3,7 +3,6 @@ import'./Allracing.css'
 import logo from'../../image/Bike.png'
 import Race from '../race/Race';
 import photo from'../../image/person.jpg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const AllRacing = () => {
     const [racing,setRacing] = useState([])
@@ -52,6 +51,16 @@ const AllRacing = () => {
                 </div>
             </div>
             <h3 className='text'>Add A Break</h3>
+            <div className='btn-container'>
+                <button>10s</button>
+                <button>20s</button>
+                <button>30s</button>
+                <button>40s</button>
+                <button>50s</button>
+            </div>
+            <h3 className='detail'>Race Details</h3>
+            <h4>Race time: </h4>
+            <h4>Break time: </h4>
            </div>
         </div>
     );
