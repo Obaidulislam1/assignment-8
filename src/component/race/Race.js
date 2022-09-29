@@ -2,7 +2,7 @@ import React from 'react';
 import'./Race.css';
 
 const Race = ({handleClick,race}) => {
-
+           console.log(race);
     const{TimeRequired,age,name,picture,description,id} =race;
     // console.log(age)
     return (

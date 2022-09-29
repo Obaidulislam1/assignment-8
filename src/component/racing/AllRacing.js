@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState} from 'react';
 import'./Allracing.css';
 import logo from'../../image/Bike.png';
 import photo from'../../image/person.jpg';
@@ -7,6 +7,8 @@ import Race from '../race/Race';
 const AllRacing = () => {
     const [racing,setRacing] = useState([])
     const [count,setCount] =useState([])
+    const [inputValue,setInputValue] = useState([])
+
     console.log(count);
     // console.log(racing)
     useEffect(() =>{
@@ -43,6 +45,7 @@ const AllRacing = () => {
             </div>           
 
            <div className='info'>
+
             <div className='myInfo'>
             <img src={photo} alt=""/>
             <div>
@@ -65,15 +68,15 @@ const AllRacing = () => {
             </div>
             <h3 className='text'>Add A Break</h3>
             <div className='btn-container'>
-                <button>10s</button>
-                <button>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-                <button>50s</button>
+                <button onClick={(e) => setInputValue(e.target.innerText)}>10</button>
+                <button onClick={(e) => setInputValue(e.target.innerText)}>20</button>
+                <button onClick={(e) => setInputValue(e.target.innerText)}>30</button>
+                <button onClick={(e) => setInputValue(e.target.innerText)}>40</button>
+                <button onClick={(e) => setInputValue(e.target.innerText)}>50</button>
             </div>
             <h3 className='detail'>Race Details</h3>
             <h4 className='same'>Race time: {total} second</h4>
-            <h4 className='same'>Break time: </h4>
+            <h4 className='same'>Break time:<input value={inputValue} onChange={(e) => setInputValue(e.target.value)} placeholder="0" /> </h4>
             <button className='btn-activity'>Activity Complete</button>
            </div>
         </div>
