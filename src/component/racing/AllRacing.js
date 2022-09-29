@@ -5,6 +5,7 @@ import photo from'../../image/person.jpg';
 import Race from '../race/Race';
 import { addLocalStore,storeData } from '../store/Store';
 import Swal from "sweetalert2";
+import Question from '../question/Question';
 
 const AllRacing = () => {
     const [racing,setRacing] = useState([])
@@ -96,7 +97,13 @@ const buttonHandeler = () => {
 
             <button onClick={buttonHandeler}  className='btn-activity'>Activity Complete</button>
            </div>
+           <div>
+           <Question></Question>
+           </div>
         </div>
+        
+
+    
     );
 };
 

@@ -1,0 +1,7 @@
+.answer{
+    display: flex;
+}
+.questionAnswer{
+    margin: 10px;
+    width: 100%;
+}
