@@ -47,3 +47,17 @@
     justify-content: space-between;
     padding: 0 20px 0 20px;
 }
+.height{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;
+}
+.manBody{
+    background-color: rgb(189, 176, 160);
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+}
+.text{
+    text-align: center;
+}

@@ -39,13 +39,19 @@ const AllRacing = () => {
             </div>
             </div>
 
-            <div>
+            <div className='manBody'>
                 <div className='weight'>
                 <h2>54<sub><span>kg</span></sub></h2>
                 <h2>5.6</h2>
                 <h2>20<sub><span>yrs</span></sub></h2>
                 </div>
+                <div className='height'>
+                    <p>Weight</p>
+                    <p>Height</p>
+                    <p>Age</p>
+                </div>
             </div>
+            <h3 className='text'>Add A Break</h3>
            </div>
         </div>
     );
