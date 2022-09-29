@@ -1,16 +1,20 @@
 import React, { useEffect, useState } from 'react';
-import'./Allracing.css'
-import logo from'../../image/Bike.png'
+import'./Allracing.css';
+import logo from'../../image/Bike.png';
+import photo from'../../image/person.jpg';
 import Race from '../race/Race';
-import photo from'../../image/person.jpg'
 
 const AllRacing = () => {
     const [racing,setRacing] = useState([])
+    // console.log(racing)
     useEffect(() =>{
         fetch('item.json')
-        .then(res => res.json())
-        .then(data =>setRacing(data))
+        .then(res =>res.json())
+        .then(data => setRacing(data))
     },[])
+    const handleClick = (racing) =>{
+        console.log(racing)
+    }
     return (
        
         <div className='racing-container'>
@@ -19,19 +23,21 @@ const AllRacing = () => {
         <img src={logo} alt="bike"/>
         <h2>Racing Time</h2>
     </div>
+    <h4>Watch todays race</h4>
     <div className='raceContainer'>
-     {
-    racing.map(race => <Race 
-        key={race.id}
-        race ={race}
-    ></Race>)
-   }
+       {
+         racing.map(race => <Race
+            key={race.id}
+             race={race}
+             handleClick={handleClick}
+             ></Race>)
+       }
     </div>
             </div>           
 
            <div className='info'>
             <div className='myInfo'>
-            <img src={photo} alt="" />
+            <img src={photo} alt=""/>
             <div>
                 <h4>Obaidul Islam</h4>
                 <p>Gazipur,Dhaka</p>
@@ -59,8 +65,9 @@ const AllRacing = () => {
                 <button>50s</button>
             </div>
             <h3 className='detail'>Race Details</h3>
-            <h4>Race time: </h4>
-            <h4>Break time: </h4>
+            <h4 className='same'>Race time: </h4>
+            <h4 className='same'>Break time: </h4>
+            <button className='btn-activity'>Activity Complete</button>
            </div>
         </div>
     );

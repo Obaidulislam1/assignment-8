@@ -29,3 +29,12 @@
     border-radius: 5px;
     margin-top: 20px;
 }
+.down{
+    margin-bottom: 50px;
+}
+.btn{
+    background-color: chocolate;
+}
+.btn:hover{
+    background-color: orange;
+}

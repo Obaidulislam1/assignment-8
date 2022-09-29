@@ -4,7 +4,7 @@ import AllRacing from './component/racing/AllRacing';
 function App() {
   return (
     <div className="App">
-      <AllRacing></AllRacing>
+     <AllRacing></AllRacing>
     </div>
   );
 }

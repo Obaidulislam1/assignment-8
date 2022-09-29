@@ -30,6 +30,8 @@
     margin: 10px 15px;
     height: 550px;
     border-radius: 10px;
+    position: sticky;
+    top: 0;
 }
 .myInfo{
     display: flex;
@@ -73,6 +75,9 @@
     margin: 5px;
     border-radius: 50px;
 }
+.btn-container button:hover{
+    background-color: orange;
+}
 .btn-container{
     background-color: chocolate;
 }
@@ -81,4 +86,17 @@
 }
 .detail h4{
     padding-left: 10px;
+}
+.same{
+    padding: 10px;
+}
+.btn-activity{
+    border: none;
+    margin-left: 30%;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+.btn-activity:hover{
+    background-color: orange;
 }

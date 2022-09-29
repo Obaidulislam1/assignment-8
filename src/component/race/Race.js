@@ -1,20 +1,20 @@
 import React from 'react';
 import'./Race.css';
 
-const Race = (props) => {
-    console.log(props)
-    const{TimeRequired,age,name,picture,description} =props.race;
-    console.log(name);
+const Race = ({handleClick,race}) => {
+
+    const{TimeRequired,age,name,picture,description,id} =race;
+    // console.log(age)
     return (
         <div className='item'>
             <img src={picture} alt="Bike"/>
-           <div className='text'>
+            <div className='text'> 
            <h4>{name}</h4>
             <p>{description}</p>
             <p>For age: {age}</p>
-            <p>Time required: {TimeRequired}</p>
+            <p className='down'>Time required: {TimeRequired}</p>
            </div>
-         <button className='btn'>Add to list</button>
+         <button onClick={() =>handleClick(race)} className='btn'>Add to list</button>
         </div>
     );
 };
