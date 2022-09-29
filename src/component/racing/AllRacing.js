@@ -68,15 +68,15 @@ const AllRacing = () => {
             </div>
             <h3 className='text'>Add A Break</h3>
             <div className='btn-container'>
-                <button onClick={(e) => setInputValue(e.target.innerText)}>10</button>
-                <button onClick={(e) => setInputValue(e.target.innerText)}>20</button>
-                <button onClick={(e) => setInputValue(e.target.innerText)}>30</button>
-                <button onClick={(e) => setInputValue(e.target.innerText)}>40</button>
-                <button onClick={(e) => setInputValue(e.target.innerText)}>50</button>
+                <button onClick={(btn) => setInputValue(btn.target.innerText)}>10</button>
+                <button onClick={(btn) => setInputValue(btn.target.innerText)}>20</button>
+                <button onClick={(btn) => setInputValue(btn.target.innerText)}>30</button>
+                <button onClick={(btn) => setInputValue(btn.target.innerText)}>40</button>
+                <button onClick={(btn) => setInputValue(btn.target.innerText)}>50</button>
             </div>
             <h3 className='detail'>Race Details</h3>
             <h4 className='same'>Race time: {total} second</h4>
-            <h4 className='same'>Break time:<input value={inputValue} onChange={(e) => setInputValue(e.target.value)} placeholder="0" /> </h4>
+            <h4 className='same'>Break time:<input value={inputValue} onChange={(btn) => setInputValue(btn.target.value)} placeholder="0" /> </h4>
             <button className='btn-activity'>Activity Complete</button>
            </div>
         </div>
