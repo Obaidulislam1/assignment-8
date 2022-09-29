@@ -6,6 +6,8 @@ import Race from '../race/Race';
 
 const AllRacing = () => {
     const [racing,setRacing] = useState([])
+    const [count,setCount] =useState([])
+    console.log(count);
     // console.log(racing)
     useEffect(() =>{
         fetch('item.json')
@@ -13,7 +15,12 @@ const AllRacing = () => {
         .then(data => setRacing(data))
     },[])
     const handleClick = (racing) =>{
-        console.log(racing)
+        const newcount = [...count,racing]
+        setCount(newcount);
+    }
+    let total = 0;
+    for(const time of count){
+        total = total +time.TimeRequired;
     }
     return (
        
@@ -65,7 +72,7 @@ const AllRacing = () => {
                 <button>50s</button>
             </div>
             <h3 className='detail'>Race Details</h3>
-            <h4 className='same'>Race time: </h4>
+            <h4 className='same'>Race time: {total} second</h4>
             <h4 className='same'>Break time: </h4>
             <button className='btn-activity'>Activity Complete</button>
            </div>

@@ -3,7 +3,7 @@
       "id": "633468d8509d19104f56bf69",
       "picture": "https://images.pexels.com/photos/39693/motorcycle-racer-racing-race-speed-39693.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
       "age": "10-15",
-      "TimeRequired": "20s",
+      "TimeRequired": 20,
       "name": "Janice Tyler",
       "description": "We and our partners store and/or access information on a device, such as cookies and process personal data,"
       
@@ -12,7 +12,7 @@
       "id": "633468d842d5c62bd6e396a0",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp9XomrRMK5GpkKVJ7mkyg37SkOZVw3Hpa8goHBMKS&s",
       "age": "15-20",
-      "TimeRequired": "25s",
+      "TimeRequired": 25,
       "name": "Mills Fitzgerald",
       "description": "Cycling Weekly is supported by its audience. When you purchase through links on our site, we may earn."
     },
@@ -20,7 +20,7 @@
       "id": "633468d88b1f99d3b285be8c",
       "picture": "https://wallpaperaccess.com/full/301468.jpg",
       "age":  "20-25",
-      "TimeRequired": "30s",
+      "TimeRequired": 30,
       "name": "Bettie Callahan",
       "description": "The latest cycling news, covering global races, bikes and cycling products and commuting and cycling safety issues."
     },
@@ -28,7 +28,7 @@
       "id": "633468d81b7e63ab4b115976",
       "picture": "https://play-lh.googleusercontent.com/TMUNRz1d6yVHwd8BMlODAj5ymnnz7SY2Rid1QaWhQT7ux5niYmrL7g8cQZA5kxDxDvM",
       "age": "25-30",
-      "TimeRequired": "35s",
+      "TimeRequired": 35,
       "name": "Mooney Johns",
       "description": "Further details of the altercation and assault case involving Mathieu van der Poel and two teenage girls in a Sydney hotel have emerged, "
     },
@@ -36,7 +36,7 @@
       "id": "633468d852af6fa13f2bbe0f",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgSUM7Oh_ggKzDF9zOcByLD6XRGrXBDiDXGg&usqp=CAU",
       "age": "30-35",
-      "TimeRequired": "40s",
+      "TimeRequired": 40,
       "name": "Dianne Nicholson",
       "description": "A series of videos, apparently shot by the teenage girls involved, have been published online and sent to some media. "
     },
@@ -44,7 +44,7 @@
       "id": "633468d8844e75237d4a74f2",
       "picture": "https://www.yamaha-motor-india.com/theme/v3/image/racing/yomr/indian-national-motorcycle.jpg",
       "age": "35-40",
-      "TimeRequired": "45s",
+      "TimeRequired": 45,
       "name": "Flowers Nunez",
       "description": "Persico will move into a leadership position while Arzeni aims to elevate the project that is currently seventh and eighth in the."
     },
@@ -52,7 +52,7 @@
       "id": "633468d87fdc413f1576d352",
       "picture": "https://img.dtnext.in/Articles/2019/Aug/201908020318441561_National-bike-racing-today_SECVPF.gif",
       "age": "40-45",
-      "TimeRequired": "50s",
+      "TimeRequired": 50,
       "name": "Allison Dunlap",
       "description": "Team director Arzeni confirmed to Cyclingnews that he too will be leaving Valcar Travel & Service and will join UAE Team ADQ as a director in 2023. "
     },
@@ -60,7 +60,7 @@
       "id": "633468d87fdc413f15734g79",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQnAjlu-x63Tken2qKhDMzVC5yao4nCDEDMhi_SLq7hhyJ3QNL34XOG7NZVVQaSwZ4e6c&usqp=CAU",
       "age": "40-45",
-      "TimeRequired": "50s",
+      "TimeRequired": 50,
       "name": "Allison Dunlap",
       "description": "Tadej Pogačar is targeting a second consecutive Il Lombardia win as he wraps up his 2022 road season."
     },
@@ -68,7 +68,7 @@
       "id": "633468d87fdc413f157h6548",
       "picture": "https://cdn-1.motorsport.com/static/img/amp/600000/660000/665000/665100/665124/s6_894433/dakar-ktm-factory-riders-presentation-2015-3-ktm-toby-price.jpg",
       "age": "40-45",
-      "TimeRequired": "50s",
+      "TimeRequired": 50,
       "name": "Allison Dunlap",
       "description": "This year Pogacar had a hugely successful spring campaign but finished second at the Tour de France and he remains hungry for some end of season success."
     }
