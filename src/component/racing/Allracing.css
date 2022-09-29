@@ -1,6 +1,6 @@
 .racing-container{
     display: grid;
-    grid-template-columns: 4fr 2fr;
+    grid-template-columns: 4fr 1fr;
     margin-left: 5%;
 }
 .logo img{
@@ -8,7 +8,7 @@
 }
 .logo{
     display: flex;
-    margin-top: 60px;
+    margin-top: 5px;
 }
 .logo h2{
     color: chocolate;
@@ -100,12 +100,16 @@
 .btn-activity:hover{
     background-color: orange;
 }
+.input{
+    border: none;
+    width: 120px;
+}
 @media screen and (max-width: 600px){
     .raceContainer{
         grid-template-columns: repeat(1,1fr);
     }
 }
-@media screen and (min-width: 601px){
+@media screen and (min-width: 605px){
     .raceContainer{
         grid-template-columns: repeat(2,1fr);
     }
